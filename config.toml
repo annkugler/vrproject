@@ -2,7 +2,7 @@ theme = "hugo-sugoi"
 baseURL = "https://annkugler.github.io/vrproject"
 publishDir = "docs"
 languageCode = "en-us"
-title = "Sugoi"
+title = "Project Documentation"
 summaryLength = 20
 paginate = 5
 # Google Analytics ID, Uncomment below line to enable
@@ -13,9 +13,10 @@ paginate = 5
 
 [params]
 favicon = "images/favicon.png"
-herotitle = "An Ultra Minimal theme!"
-herolink = "https://github.com/aanupam23/hugo-sugoi"
-herolinktext = "Check Now"
+herotitle = "Project Documentation"
+# herolink = "https://github.com/aanupam23/hugo-sugoi"
+herolink = "https://github.com/annkugler/interactionvr"
+herolinktext = "Source Code"
 contact = "Send me a message and I will get back as soon as possible."
 
 [hero]
@@ -27,7 +28,7 @@ contact = "Send me a message and I will get back as soon as possible."
         url     = "about"
         weight  = -1
     [[menu.nav]]
-        name    = "blog"
+        name    = "content"
         pre = "<i class='fas fa-list'></i>"
         url     = "post"
         weight  = -2
