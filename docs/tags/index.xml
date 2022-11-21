@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sugoi</title>
+    <link>https://annkugler.github.io/vrproject/tags/</link>
+    <description>Recent content in Tags on Sugoi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://annkugler.github.io/vrproject/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Future</title>
+      <link>https://annkugler.github.io/vrproject/tags/future/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://annkugler.github.io/vrproject/tags/future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hyper Reality</title>
+      <link>https://annkugler.github.io/vrproject/tags/hyper-reality/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://annkugler.github.io/vrproject/tags/hyper-reality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta Qeust</title>
+      <link>https://annkugler.github.io/vrproject/tags/meta-qeust/</link>
+      <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://annkugler.github.io/vrproject/tags/meta-qeust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ultimate Display</title>
+      <link>https://annkugler.github.io/vrproject/tags/ultimate-display/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://annkugler.github.io/vrproject/tags/ultimate-display/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>https://annkugler.github.io/vrproject/tags/unity/</link>
+      <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://annkugler.github.io/vrproject/tags/unity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual Reality</title>
+      <link>https://annkugler.github.io/vrproject/tags/virtual-reality/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://annkugler.github.io/vrproject/tags/virtual-reality/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

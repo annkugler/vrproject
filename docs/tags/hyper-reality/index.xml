@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hyper Reality on Sugoi</title>
+    <link>https://annkugler.github.io/vrproject/tags/hyper-reality/</link>
+    <description>Recent content in Hyper Reality on Sugoi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://annkugler.github.io/vrproject/tags/hyper-reality/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hyper Reality</title>
+      <link>https://annkugler.github.io/vrproject/post/hyperreality/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://annkugler.github.io/vrproject/post/hyperreality/</guid>
+      <description>Hyper reality Is it only a vision in the distant future or already finding its way into our everyday life?</description>
+    </item>
+    
+  </channel>
+</rss>

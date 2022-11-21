@@ -1,5 +1,6 @@
 theme = "hugo-sugoi"
-baseURL = "https://example.com"
+baseURL = "https://annkugler.github.io/vrproject"
+publishDir = "docs"
 languageCode = "en-us"
 title = "Sugoi"
 summaryLength = 20

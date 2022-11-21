@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+<title>Setting up project - Sugoi</title>
+<meta name="description"
+    content="">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+
+<link rel="stylesheet" href="https://annkugler.github.io/vrproject/css/normalize.css">
+
+<link rel="stylesheet" href="https://annkugler.github.io/vrproject/css/skeleton.css">
+
+<link rel="stylesheet" href="https://annkugler.github.io/vrproject/css/custom.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+
+<link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
+
+
+
+</head>
+    <body><nav>
+    <label for="drop" class="toggle"><i class="fas fa-bars u-pull-right" aria-hidden="true"></i> <span><i
+                class="fas fa-fire" aria-hidden="true"></i>
+            Sugoi</span></label>
+    <input type="checkbox" id="drop" />
+    <ul class="menu">
+        <li><a href="https://annkugler.github.io/vrproject"><span><i class="fas fa-fire" aria-hidden="true"></i>
+                    Sugoi</span></a></li>
+        
+        <li class="u-pull-right">
+            <a href="https://annkugler.github.io/vrproject/contact" class="Members">
+                <span><i class='fas fa-envelope'></i> contact</span>
+            </a>
+        </li>
+        
+        <li class="u-pull-right">
+            <a href="https://annkugler.github.io/vrproject/post" class="Members">
+                <span><i class='fas fa-list'></i> blog</span>
+            </a>
+        </li>
+        
+        <li class="u-pull-right">
+            <a href="https://annkugler.github.io/vrproject/about" class="Members">
+                <span><i class='fas fa-home'></i> about</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+<div class="section hero">
+    <div class="container">
+        <h1 class="section-heading">Setting up project</h1>
+        
+        
+        
+        <i class="far fa-calendar"></i> Published On: 2022-11-05,
+        <i class="far fa-clock"></i> Reading Time: 2 minutes
+        </h6>
+    </div>
+</div>
+
+<div class="section main">
+    <div class="row content">
+        <article>
+            
+
+<h1 id="connecting-the-meta-quest">Connecting the Meta Quest</h1>
+
+<p>Problem: If connecting the Meta Quest with a Linux machine, the device is not listed on the connected devices.</p>
+
+<p>Solution: Adjusting the android rules to grant permission for the meta quest.</p>
+
+<p>Device USB information:</p>
+
+<pre><code class="language-console">Bus 001 Device 017: ID 2833:0182 
+</code></pre>
+
+<p>Adding the following line to the android rules file:</p>
+
+<pre><code class="language-console">SUBSYSTEM==&quot;usb&quot;, ATTR{idVendor}==&quot;2833&quot;, ATTR{idProduct}==&quot;0182&quot;, MODE=&quot;0666&quot;, GROUP=&quot;plugdev&quot;
+</code></pre>
+
+<p>Now the Meta Quest Device shows up when connecting via and USB-C/ USB cable.</p>
+
+<h1 id="unity-setup-for-meta-quest">Unity Setup for Meta Quest</h1>
+
+<p>Installing the required packages to get the Meta Quest running on a Linux machine with Unity.</p>
+
+<p>Steps that have been performed:</p>
+
+<ul>
+<li>custom install of jdk and android sdk tools for linux</li>
+<li>installing the latest stable version of Unity with Android Build Support</li>
+<li>getting the Oculus Integration SDK Package from the Unity Asset Store</li>
+<li>updating OVRPlugin manually after installing XR integration</li>
+<li>creating a developer account on the MetaQuest page and setup 2-factor authentification for verification</li>
+<li>enable Developer Mode for the device via the Meta Quest App on the mobile phone</li>
+</ul>
+
+<h1 id="testing-meta-quest-in-unity">Testing Meta Quest in Unity</h1>
+
+<p>Now, I want to check if I can actually construct a sample scene in Unity and show it on the Meta Quest device.</p>
+
+<p>First of all, I had to locate Unity on the headset by searching for &ldquo;Unknown Sources&rdquo; in the App Managment section.</p>
+
+<p>Then, I openend Unity and selected a random sample scene from the Assets/Oculus/SampleFramework/Usage folder.</p>
+
+<p>I dragged the scene into my Unity project and built the scene with the Oculus headset as selected device, which took a while.</p>
+
+<p>After that, I put on the headset and saw that I was located in an empty Unity scene.</p>
+
+<p>So, I&rsquo;ve got some good and some bad news:</p>
+
+<p>1.) I got the Meta Quest connected to Unity (yay!)
+2.) But, unfortunately, the scene that was shown was not the same as the sample scene I have selected</p>
+
+<p>Guess, now I have to figure out how to represent the sample scene to be shown on the Meta Quest.</p>
+
+<p>(tbc)</p>
+
+            
+        </article>
+    </div>
+</div>
+
+<footer>
+    <span class="copyright">
+         &copy; 2022 
+        <a href="https://github.com/aanupam23/hugo-sugoi" title="hugo-sugoi" alt="hugo-sugoi" target="_blank">Hugo-Sugoi</a>
+    </span>
+</footer></body>
+</html>
