@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sugoi</title>
+    <title>Project Documentation</title>
     <link>https://annkugler.github.io/vrproject/</link>
-    <description>Recent content on Sugoi</description>
+    <description>Recent content on Project Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Nov 2022 19:57:09 +0530</lastBuildDate>
     
 	<atom:link href="https://annkugler.github.io/vrproject/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://annkugler.github.io/vrproject/about/</link>
+      <pubDate>Mon, 21 Nov 2022 19:57:09 +0530</pubDate>
+      
+      <guid>https://annkugler.github.io/vrproject/about/</guid>
+      <description>About me Hello! My name is Anna-Maria Kugler and I am a student of the TU Darmstadt. After I have already finishing my B.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://annkugler.github.io/vrproject/contact/</link>
+      <pubDate>Mon, 21 Nov 2022 19:57:09 +0530</pubDate>
+      
+      <guid>https://annkugler.github.io/vrproject/contact/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hyper Reality</title>

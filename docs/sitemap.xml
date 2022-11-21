@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://annkugler.github.io/vrproject/about/</loc>
+    <lastmod>2022-11-21T19:57:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://annkugler.github.io/vrproject/contact/</loc>
+    <lastmod>2022-11-21T19:57:09+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://annkugler.github.io/vrproject/post/hyperreality/</loc>
     <lastmod>2022-11-13T00:00:00+00:00</lastmod>
   </url>
@@ -48,7 +58,7 @@
   
   <url>
     <loc>https://annkugler.github.io/vrproject/</loc>
-    <lastmod>2022-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-21T19:57:09+05:30</lastmod>
     <priority>0</priority>
   </url>
   
